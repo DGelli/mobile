@@ -1,0 +1,67 @@
+{
+    "emulator10": {
+        "platformName": "Android",
+        "deviceName": "emulator",
+        "platformVersion": "10.0",
+        "newCommandTimeout": 120,
+        "automationName": "UiAutomator2",
+        "autoGrantPermissions": true,
+        "autoAcceptAlerts": true
+    },
+    "emulator11": {
+        "platformName": "Android",
+        "deviceName": "emulator",
+        "platformVersion": "11.0",
+        "newCommandTimeout": 120,
+        "automationName": "UiAutomator2",
+        "autoGrantPermissions": true,
+        "autoAcceptAlerts": true
+    },
+    "emulator12": {
+        "platformName": "Android",
+        "deviceName": "emulator",
+        "platformVersion": "12.0",
+        "newCommandTimeout": 120,
+        "automationName": "UiAutomator2",
+        "autoGrantPermissions": true,
+        "autoAcceptAlerts": true
+    },
+    "emulator13": {
+        "platformName": "Android",
+        "deviceName": "emulator",
+        "platformVersion": "13.0",
+        "newCommandTimeout": 120,
+        "automationName": "UiAutomator2",
+        "autoGrantPermissions": true,
+        "autoAcceptAlerts": true
+    },
+    "iphone11": {
+        "platformName": "iOS",
+        "deviceName": "iPhone 11",
+        "udid": "00008030-0015555528C02E",
+        "platformVersion": "16.1.1",
+        "newCommandTimeout": 60,
+        "automationName": "XCUITest",
+        "autoGrantPermissions": true,
+        "autoAcceptAlerts": true
+    },
+    "iphone14": {
+        "platformName": "iOS",
+        "deviceName": "iPhone 14",
+        "udid": "FC95AF9B-FD2A-4CD3-8688-6B945933334",
+        "platformVersion": "16.4",
+        "newCommandTimeout": 20,
+        "automationName": "XCUITest",
+        "autoGrantPermissions": true,
+        "autoAcceptAlerts": true
+    },
+    "galaxyS21": {
+        "platformName": "Android",
+        "deviceName": "Galaxy S21 5G",
+        "platformVersion": "13.0",
+        "newCommandTimeout": 60,
+        "automationName": "UiAutomator2",
+        "autoGrantPermissions": true,
+        "autoAcceptAlerts": true
+    }
+}

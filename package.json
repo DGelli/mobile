@@ -1,0 +1,46 @@
+{
+  "name": "apl-mobile-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "ios": "ENV ENV='hml' APP='qazandoapp.app' MODE='local' CAPS='iphone14' RETRY=0 npx codeceptjs run --verbose --grep @",
+    "s21": "ENV ENV='hml' APP='app-release.apk' MODE='local' CAPS='galaxyS21' RETRY=0 npx codeceptjs run --verbose --grep @",
+    "emu10": "ENV ENV='hml' APP='app-release.apk' MODE='local' CAPS='emulator10' RETRY=0 npx codeceptjs run --verbose --grep @",
+    "emu11": "ENV ENV='hml' APP='app-release.apk' MODE='local' CAPS='emulator11' RETRY=0 npx codeceptjs run --verbose --grep @",
+    "emu12": "ENV ENV='hml' APP='app-release.apk' MODE='local' CAPS='emulator12' RETRY=0 npx codeceptjs run --verbose --grep @",
+    "emu13": "ENV ENV='hml' APP='app-release.apk' MODE='local' CAPS='emulator13' RETRY=0 npx codeceptjs run --verbose --grep @",
+    "remoteS21": "ENV ENV='hml' APP='storage:filename=app-release.apk' PROXY_HTTPS='http://10.94.6.10:8080' MODE='remote' CAPS='galaxyS21' RETRY=0 npx codeceptjs run --verbose --grep"
+  },
+  "keywords": [],
+  "author": "Douglas Gelli",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "@wdio/sauce-service": "^7.29.1",
+    "allure-commandline": "^2.18.1",
+    "appium": "^1.22.3",
+    "codeceptjs": "^3.3.5",
+    "codeceptjs-assert": "^0.0.5",
+    "codeceptjs-chai": "^2.3.3",
+    "codeceptjs-saucehelper": "^1.4.0",
+    "codeceptjs-tests": "^0.0.1",
+    "cpf_cnpj": "^0.2.0",
+    "dotenv": "^16.0.1",
+    "mocha-multi": "^1.1.6",
+    "moment": "^2.29.4",
+    "node-datetime": "^2.1.2",
+    "node-global-proxy": "^1.0.1",
+    "random-number": "^0.0.9",
+    "webdriverio": "^7.20.9"
+  },
+  "devDependencies": {
+    "npm": "^8.16.0"
+  }
+}

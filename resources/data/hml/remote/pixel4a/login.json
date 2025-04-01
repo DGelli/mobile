@@ -1,0 +1,10 @@
+{
+  "credenciaisValida": {
+    "user": "teste@teste.com",
+    "pass": 123456
+  },
+  "senhaInvalida": {
+    "user": "teste@teste.com",
+    "pass": "999999"
+  }
+}

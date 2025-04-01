@@ -1,0 +1,24 @@
+{
+    "pixel4": {
+        "platformName": "Android",
+        "deviceName": "Google Pixel 4 XL",
+        "newCommandTimeout": 120,
+        "automationName": "UiAutomator2",
+        "autoGrantPermissions": true,
+        "autoAcceptAlerts": true,
+        "acceptInsecureCerts": true,
+        "tunnelName": "safra_sauce_tunnel_x",
+        "tunnelOwner": "thiago.sgoncalves"
+    },
+    "galaxyS21": {
+        "platformName": "Android",
+        "deviceName": "Samsung Galaxy S21 5G",
+        "newCommandTimeout": 60,
+        "automationName": "UiAutomator2",
+        "autoGrantPermissions": true,
+        "autoAcceptAlerts": true,
+        "acceptInsecureCerts": true,
+        "tunnelName": "safra_sauce_tunnel_x",
+        "tunnelOwner": "thiago.sgoncalves"
+    }
+}
